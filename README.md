@@ -17,4 +17,7 @@ Nosso maior desafio foi gerar notificação do app, conseguimos gerar mas ela s�
 Adicionamos banco de dados ao app.
 
 Link do FireBase
-https://console.firebase.google.com/u/0/project/despesa-257fd/database/despesa-257fd-default-rtdb/data
+Link: https://console.firebase.google.com/u/0/project/despesa-257fd/database/despesa-257fd-default-rtdb/data
+
+Vídeo do App sendo utilizado
+Link: App Despesas.mp4

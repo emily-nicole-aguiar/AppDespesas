@@ -15,3 +15,6 @@ Todas as telas exceto a de apresentação apresentam um menu clicável para cada
 Desafios
 Nosso maior desafio foi gerar notificação do app, conseguimos gerar mas ela só é confirmada pelo logcat, o pop up de notificação não conseguimos fazer aparecer.
 Adicionamos banco de dados ao app.
+
+Link do FireBase
+https://console.firebase.google.com/u/0/project/despesa-257fd/database/despesa-257fd-default-rtdb/data

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado normal -->
+    <item android:color="@color/cor_fundo_cadastro" android:state_enabled="true"/>
+
+    <!-- Estado pressionado -->
+    <item android:color="#701212" android:state_pressed="true"/>
+
+    <!-- Estado selecionado -->
+    <item android:color="@color/cor_fundo_cadastro" android:state_checked="true"/>
+</selector>

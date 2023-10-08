@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#5E5D5D</color>
+    <color name="cor_fundo">#02B58B</color>
+    <color name="cor_fundo_cadastro">#FF5C5C</color>
+    <color name="cor_geral">#ff01551A</color>
+
+    <color name="colorSelected">#FF4081</color>
+    <color name="colorUnselected">#9E9E9E</color>
+
+
+
+</resources>

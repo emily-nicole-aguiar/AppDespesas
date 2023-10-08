@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentCadastroDespesa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor_fundo_cadastro"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtSelecionaData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="  Selecione a data"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_calendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSelecionaCategoria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="  Selecione a categoria "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_expandir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSelecionaData" />
+
+    <EditText
+        android:id="@+id/edtInformaDespesa"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/cor_fundo_cadastro"
+        android:hint="  Informe a despesa "
+        android:inputType="text|textAutoComplete|textCapSentences"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSelecionaCategoria" />
+
+    <TextView
+        android:id="@+id/txtRepetir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="  Repetir "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_repeat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtInformaDespesa" />
+
+    <TextView
+        android:id="@+id/txtDivideCom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="  Dividir com  "
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRepetir" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

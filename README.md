@@ -20,4 +20,4 @@ Link do FireBase
 Link: https://console.firebase.google.com/u/0/project/despesa-257fd/database/despesa-257fd-default-rtdb/data
 
 Vídeo do App sendo utilizado
-Link: App Despesas.mp4
+Link: [App Despesas.mp4](https://github.com/emily-nicole-aguiar/AppDespesas/commit/703e3446889a1df41f0d8768124f92e63136f540)
